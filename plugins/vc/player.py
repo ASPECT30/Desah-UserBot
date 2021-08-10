@@ -45,9 +45,9 @@ from pyrogram.types import Message
 from pyrogram.utils import MAX_CHANNEL_ID
 from pytgcalls import GroupCallFactory, GroupCallFileAction
 
-DELETE_DELAY = 8
-DURATION_AUTOPLAY_MIN = 10
-DURATION_PLAY_HOUR = 3
+DELETE_DELAY = 10
+DURATION_AUTOPLAY_MIN = 1000
+DURATION_PLAY_HOUR = 10
 
 USERBOT_HELP = f"""{emoji.LABEL}  **Common Commands**:
 __available to group members of current voice chat__
@@ -76,9 +76,9 @@ __starts with ! (exclamation mark)__
 \u2022 `!unmute`  unmute the VC userbot
 """
 
-USERBOT_REPO = f"""{emoji.ROBOT} **Telegram Voice Chat UserBot**
+USERBOT_REPO = f"""{emoji.ROBOT} **Desah-Userbot**
 
-- Repository: [GitHub](https://github.com/LushaiMusic/VC-UserBot)
+- Repository: [GitHub](https://github.com/ASPECT30/Desah-UserBot)
 - License: AGPL-3.0-or-later"""
 
 # - Pyrogram filters
